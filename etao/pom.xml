@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <!-- 子模块  -->
+    <modules>
+        <!-- 通用模块，包含实体类、服务接口、工具类等 -->
+        <module>etao_common</module>
+        <module>etao_goods_service</module>
+        <module>etao_admin_service</module>
+        <module>etao_cart_customer_api</module>
+        <module>etao_cart_service</module>
+        <module>etao_category_customer_api</module>
+        <module>etao_category_service</module>
+        <module>etao_file_service</module>
+        <module>etao_manager_api</module>
+        <module>etao_message_service</module>
+        <module>etao_order_customer_api</module>
+        <module>etao_order_service</module>
+        <module>etao_pay_service</module>
+        <module>etao_search_customer_api</module>
+        <module>etao_search_service</module>
+        <module>etao_seckill_customer_api</module>
+        <module>etao_seckill_service</module>
+        <module>etao_user_customer_api</module>
+        <module>etao_user_service</module>
+    </modules>
+
+    <groupId>com.huangkai</groupId>
+    <artifactId>etao</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <!-- 该工程为SpringBoot工程 -->
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.7.0</version>
+        <relativePath/>
+    </parent>
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+</project>

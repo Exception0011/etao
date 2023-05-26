@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="generator.mapper.OrdersMapper">
+
+    <resultMap id="BaseResultMap" type="generator.domain.Orders">
+            <id property="id" column="id" jdbcType="VARCHAR"/>
+            <result property="payment" column="payment" jdbcType="DECIMAL"/>
+            <result property="paymenttype" column="paymentType" jdbcType="VARCHAR"/>
+            <result property="postfee" column="postFee" jdbcType="VARCHAR"/>
+            <result property="status" column="status" jdbcType="VARCHAR"/>
+            <result property="createtime" column="createTime" jdbcType="TIMESTAMP"/>
+            <result property="paymenttime" column="paymentTime" jdbcType="TIMESTAMP"/>
+            <result property="consigntime" column="consignTime" jdbcType="TIMESTAMP"/>
+            <result property="endtime" column="endTime" jdbcType="TIMESTAMP"/>
+            <result property="closetime" column="closeTime" jdbcType="TIMESTAMP"/>
+            <result property="shippingname" column="shippingName" jdbcType="VARCHAR"/>
+            <result property="shippingcode" column="shippingCode" jdbcType="VARCHAR"/>
+            <result property="userid" column="userId" jdbcType="BIGINT"/>
+            <result property="buyermessage" column="buyerMessage" jdbcType="VARCHAR"/>
+            <result property="buyernick" column="buyerNick" jdbcType="VARCHAR"/>
+            <result property="receiverareaname" column="receiverAreaName" jdbcType="VARCHAR"/>
+            <result property="receivermobile" column="receiverMobile" jdbcType="VARCHAR"/>
+            <result property="receiverzipcode" column="receiverZipCode" jdbcType="VARCHAR"/>
+            <result property="receiver" column="receiver" jdbcType="VARCHAR"/>
+            <result property="expire" column="expire" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,payment,paymentType,
+        postFee,status,createTime,
+        paymentTime,consignTime,endTime,
+        closeTime,shippingName,shippingCode,
+        userId,buyerMessage,buyerNick,
+        receiverAreaName,receiverMobile,receiverZipCode,
+        receiver,expire
+    </sql>
+</mapper>

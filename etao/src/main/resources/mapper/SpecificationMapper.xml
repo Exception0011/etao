@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="generator.mapper.SpecificationMapper">
+
+    <resultMap id="BaseResultMap" type="generator.domain.Specification">
+            <id property="id" column="id" jdbcType="BIGINT"/>
+            <result property="specname" column="specName" jdbcType="VARCHAR"/>
+            <result property="producttypeid" column="productTypeId" jdbcType="BIGINT"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,specName,productTypeId
+    </sql>
+</mapper>

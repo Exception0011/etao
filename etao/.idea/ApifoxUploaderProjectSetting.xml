@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ApifoxUploaderProjectSetting">
+    <option name="apifoxAccessToken" value="APS-mpLsDBRTecpALq670j93IVy3igTfpShb" />
+    <option name="apifoxApiOverwriteMode" value="覆盖所有字段" />
+    <option name="apifoxProjectIds">
+      <array>
+        <option value="# ModuleName:ProjectID" />
+        <option value="etao:2750208" />
+        <option value="etao_manager_api:2750208" />
+        <option value="etao_user_customer_api:2750208" />
+      </array>
+    </option>
+    <option name="yapiTokens" value="" />
+  </component>
+</project>

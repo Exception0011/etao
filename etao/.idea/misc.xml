@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/etao_common/pom.xml" />
+        <option value="$PROJECT_DIR$/etao_admin_service/pom.xml" />
+        <option value="$PROJECT_DIR$/etao_cart_customer_api/pom.xml" />
+        <option value="$PROJECT_DIR$/etao_cart_service/pom.xml" />
+        <option value="$PROJECT_DIR$/etao_category_customer_api/pom.xml" />
+        <option value="$PROJECT_DIR$/etao_category_service/pom.xml" />
+        <option value="$PROJECT_DIR$/etao_file_service/pom.xml" />
+        <option value="$PROJECT_DIR$/etao_goods_service/pom.xml" />
+        <option value="$PROJECT_DIR$/etao_manager_api/pom.xml" />
+        <option value="$PROJECT_DIR$/etao_message_service/pom.xml" />
+        <option value="$PROJECT_DIR$/etao_order_customer_api/pom.xml" />
+        <option value="$PROJECT_DIR$/etao_order_service/pom.xml" />
+        <option value="$PROJECT_DIR$/etao_pay_service/pom.xml" />
+        <option value="$PROJECT_DIR$/etao_search_customer_api/pom.xml" />
+        <option value="$PROJECT_DIR$/etao_search_service/pom.xml" />
+        <option value="$PROJECT_DIR$/etao_seckill_customer_api/pom.xml" />
+        <option value="$PROJECT_DIR$/etao_seckill_service/pom.xml" />
+        <option value="$PROJECT_DIR$/etao_user_customer_api/pom.xml" />
+        <option value="$PROJECT_DIR$/etao_user_service/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

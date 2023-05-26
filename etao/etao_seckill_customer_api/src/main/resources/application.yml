@@ -1,0 +1,19 @@
+
+
+server:
+  port: 8007
+logging:
+  pattern:
+    console: '%d{HH:mm:ss.SSS}%clr(%-5level) --- [%-15thread]%cyan(%-50logger{50}):%msg%n'
+
+dubbo:
+  application:
+    name: etao_seckill_customer_api
+  registry:
+    address: zookeeper://43.136.14.183
+    port: 2181
+    timeout: 60000
+  protocol:
+    name: dubbo
+    port: -1
+

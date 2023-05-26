@@ -1,0 +1,28 @@
+
+server:
+  port: 9008
+logging:
+  pattern:
+    console: '%d{HH:mm:ss.SSS}%clr(%-5level) --- [%-15thread]%cyan(%-50logger{50}):%msg%n'
+spring:
+  # elasticsearch
+  elasticsearch:
+    uris: http://192.168.31.66:9200
+  rabbitmq:
+    host: 192.168.31.66
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
+dubbo:
+  application:
+    name: etao_search_service
+  registry:
+    address: zookeeper://43.136.14.183
+    port: 2181
+    timeout: 60000
+  protocol:
+    name: dubbo
+    port: -1
+  scan:
+    base-packages: com.huangkai.etao_search_service.service

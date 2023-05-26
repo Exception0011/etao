@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="808a4fc2-39f2-4baa-87d0-646566e94737" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.8.3-bin/apache-maven-3.8.3" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.8.3-bin\apache-maven-3.8.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Pv8HcBLnkfDkTb8cMNLJFHMp0C" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/code/etao/etao_common/src/main/java/com/huangkai/etao_common&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;apifox_uploader.settings.ApifoxUploaderConfigurable&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;3571773f35a775f121c74ade70cc9eb4&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\etao\etao_common\src\main\java\com\huangkai\etao_common" />
+      <recent name="D:\code\etao\etao_common\src\main\java\com\huangkai\etao_common\domain" />
+      <recent name="D:\code\etao\etao_common\src\main\resources" />
+      <recent name="D:\code\etao\etao_goods_service\src\main\java\com\huangkai\etao_goods_service\service\impl" />
+      <recent name="D:\code\etao\etao_goods_service\src\main\java\com\huangkai\etao_goods_service\mapper" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\etao\etao_goods_service\src\main\resources" />
+      <recent name="D:\code\etao\etao_goods_service\src\main\resources\com" />
+      <recent name="D:\code\etao\etao_admin_service\src\main\resources" />
+      <recent name="D:\code\etao\etao_goods_service\src\main\resources\com\huangkai\etao_goods_service" />
+      <recent name="D:\code\etao\etao_admin_service\src\main\resources\com\huangkai\etao_admin_service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.huangkai.etao_user_customer_api" />
+      <recent name="com.huangkai.etao_search_customer_api" />
+      <recent name="com.huangkai.etao_goods_service" />
+      <recent name="com.huangkai.etao_manager_api.controller" />
+      <recent name="com.huangkai.etao_goods_service.service.impl" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.EtaoAdminServiceApplicationTests.contextLoads">
+    <configuration name="EtaoAdminServiceApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="etao_admin_service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huangkai.etao_admin_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.huangkai.etao_admin_service" />
+      <option name="MAIN_CLASS_NAME" value="com.huangkai.etao_admin_service.EtaoAdminServiceApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EtaoManagerApiApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="etao_manager_api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huangkai.etao_manager_api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.huangkai.etao_manager_api" />
+      <option name="MAIN_CLASS_NAME" value="com.huangkai.etao_manager_api.EtaoManagerApiApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EtaoAdminServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="etao_admin_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.huangkai.etao_admin_service.EtaoAdminServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EtaoCartCustomerApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="etao_cart_customer_api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.huangkai.etao_cart_customer_api.EtaoCartCustomerApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EtaoCartServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="etao_cart_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.huangkai.etao_cart_service.EtaoCartServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EtaoCategoryCustomerApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="etao_category_customer_api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.huangkai.etao_category_customer_api.EtaoCategoryCustomerApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EtaoCategoryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="etao_category_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.huangkai.etao_category_service.EtaoCategoryServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EtaoCommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="etao_common" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.huangkai.etao_common.EtaoCommonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EtaoFileServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="etao_file_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.huangkai.etao_file_service.EtaoFileServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EtaoGoodsServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="etao_goods_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.huangkai.etao_goods_service.EtaoGoodsServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EtaoManagerApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="etao_manager_api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.huangkai.etao_manager_api.EtaoManagerApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EtaoMessageServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="etao_message_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.huangkai.etao_message_service.EtaoMessageServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EtaoOrderCustomerApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="etao_order_customer_api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.huangkai.etao_order_customer_api.EtaoOrderCustomerApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EtaoOrderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="etao_order_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.huangkai.etao_order_service.EtaoOrderServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EtaoPayServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="etao_pay_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.huangkai.etao_pay_service.EtaoPayServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EtaoSearchCustomerApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="etao_search_customer_api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.huangkai.etao_search_customer_api.EtaoSearchCustomerApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EtaoSearchServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="etao_search_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.huangkai.etao_search_service.EtaoSearchServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EtaoSeckillCustomerApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="etao_seckill_customer_api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.huangkai.etao_seckill_customer_api.EtaoSeckillCustomerApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EtaoSeckillServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="etao_seckill_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.huangkai.etao_seckill_service.EtaoSeckillServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EtaoUserCustomerApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="etao_user_customer_api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.huangkai.etao_user_customer_api.EtaoUserCustomerApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EtaoUserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="etao_user_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.huangkai.etao_user_service.EtaoUserServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.EtaoAdminServiceApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.EtaoManagerApiApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="808a4fc2-39f2-4baa-87d0-646566e94737" name="Changes" comment="" />
+      <created>1684326107813</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684326107813</updated>
+      <workItem from="1684326109129" duration="1596000" />
+      <workItem from="1684334782460" duration="1828000" />
+      <workItem from="1684377478733" duration="10570000" />
+      <workItem from="1684411825168" duration="5252000" />
+      <workItem from="1684425930958" duration="641000" />
+      <workItem from="1684461500778" duration="5913000" />
+      <workItem from="1684468640160" duration="3972000" />
+      <workItem from="1684472712910" duration="2615000" />
+      <workItem from="1684494701754" duration="2828000" />
+      <workItem from="1684502576036" duration="559000" />
+      <workItem from="1684504534398" duration="1569000" />
+      <workItem from="1684653766356" duration="6071000" />
+      <workItem from="1684732359471" duration="7917000" />
+      <workItem from="1684762306448" duration="1483000" />
+      <workItem from="1684814574659" duration="6113000" />
+      <workItem from="1684852506095" duration="2507000" />
+      <workItem from="1684907415986" duration="8051000" />
+      <workItem from="1684932000120" duration="251000" />
+      <workItem from="1684985868776" duration="4403000" />
+      <workItem from="1685025411988" duration="16000" />
+      <workItem from="1685026210159" duration="13000" />
+      <workItem from="1685027266716" duration="6000" />
+      <workItem from="1685078091613" duration="7338000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

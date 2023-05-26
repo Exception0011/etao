@@ -1,0 +1,46 @@
+server:
+  port: 9004
+logging:
+  pattern:
+    console: '%d{HH:mm:ss.SSS}%clr(%-5level) --- [%-15thread]%cyan(%-50logger{50}):%msg%n'
+mybatis-plus:
+  mapper-locations: classpath:mapper/*Mapper.xml
+  global-config:
+    db-config:
+      table-prefix: bz_
+      id-type: auto
+  configuration:
+    map-underscore-to-camel-case: false
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql:///baizhanshopping?serverTimezone-UTC
+    username: root
+    password: 123456
+  redis:
+    host: 192.168.31.66
+    port: 6379
+    timeout: 30000
+    jedis:
+      pool:
+        max-idle: 8
+        max-wait: -1
+        max-active: 8
+        min-idle: 0
+
+dubbo:
+  application:
+    name: etao_category_service
+  registry:
+    address: zookeeper://43.136.14.183
+    port: 2181
+    timeout: 60000
+  protocol:
+    name: dubbo
+    port: -1
+  scan:
+    base-packages: com.huangkai.etao_category_service.service
+
+

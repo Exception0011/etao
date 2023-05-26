@@ -1,0 +1,25 @@
+
+server:
+  port: 9003
+logging:
+  pattern:
+    console: '%d{HH:mm:ss.SSS}%clr(%-5level) --- [%-15thread]%cyan(%-50logger{50}):%msg%n'
+dubbo:
+  application:
+    name: etao_file_service
+  registry:
+    address: zookeeper://43.136.14.183
+    port: 2181
+    timeout: 60000
+  protocol:
+    name: dubbo
+    port: -1
+  scan:
+    base-packages: com.huangkai.etao_file_service.service
+fdfs:
+  so-timeout: 3000
+  connect-timeout: 6000
+  tracker-list:
+    - 43.136.14.183:22122
+  #\u81EA\u5B9A\u4E49\u914D\u7F6E\uFF0C\u6587\u4EF6\u8BBF\u95EE\u8DEF\u5F84
+  fileUrl: http://43.136.14.183

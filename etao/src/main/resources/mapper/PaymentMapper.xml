@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="generator.mapper.PaymentMapper">
+
+    <resultMap id="BaseResultMap" type="generator.domain.Payment">
+            <id property="id" column="id" jdbcType="BIGINT"/>
+            <result property="orderid" column="orderId" jdbcType="VARCHAR"/>
+            <result property="transactionid" column="transactionId" jdbcType="VARCHAR"/>
+            <result property="tradetype" column="tradeType" jdbcType="VARCHAR"/>
+            <result property="tradestate" column="tradeState" jdbcType="VARCHAR"/>
+            <result property="payertotal" column="payerTotal" jdbcType="DECIMAL"/>
+            <result property="content" column="content" jdbcType="VARCHAR"/>
+            <result property="createtime" column="createTime" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,orderId,transactionId,
+        tradeType,tradeState,payerTotal,
+        content,createTime
+    </sql>
+</mapper>
